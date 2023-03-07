@@ -1,4 +1,12 @@
-import { Body, Controller, Post, Req, UseGuards } from '@nestjs/common';
+import {
+  Body,
+  Controller,
+  Get,
+  Post,
+  Req,
+  Res,
+  UseGuards,
+} from '@nestjs/common';
 import { JwtService } from '@nestjs/jwt';
 import { AuthGuard } from '@nestjs/passport';
 import { ApiTags } from '@nestjs/swagger';
@@ -9,6 +17,11 @@ import { LoginDto } from './dto/login.dto';
 @ApiTags('Login')
 export class AuthController {
   constructor(private jwtService: JwtService) {}
+
+  @Get('/health')
+  health(@Req() request, @Res() response) {
+    return response.sendStatus(200);
+  }
 
   @Post('/login')
   @UseGuards(AuthGuard('local'))

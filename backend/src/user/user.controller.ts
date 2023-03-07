@@ -24,6 +24,11 @@ import { User } from './entities/user.entity';
 export class UserController {
   constructor(private readonly userService: UserService) {}
 
+  @Get('/health')
+  health(@Req() request, @Res() response) {
+    return response.sendStatus(200);
+  }
+
   @Post('/signUp')
   async create(@Body(ValidationPipe) createUserDto: CreateUserDto) {
     const user: User = await this.userService.findUserByEmail(

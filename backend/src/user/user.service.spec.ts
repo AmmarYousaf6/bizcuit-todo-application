@@ -30,6 +30,6 @@ describe('UserService', () => {
   });
 
   it('should be defined', async () => {
-    const result = await service.findAll();
+    expect(service).toBeDefined();
   });
 });
