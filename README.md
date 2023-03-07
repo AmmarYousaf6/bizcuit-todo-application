@@ -67,6 +67,7 @@ The documentation of the APIs can be found here: http://localhost:3000/api
 - Get Completed Todo list per user
     -- Show todo list that has been marked as completed.
 - Database import won't be necessary, the server will automatically synchronize the tables.
+- I have used ESLinters to keep the code clean.
 
 ## Could not finish
 - I could not finish the deadline functionality of the Todo in time.
@@ -82,6 +83,7 @@ The documentation of the APIs can be found here: http://localhost:3000/api
 
     - Node ^16.18
     - Express
+    - TypeScript
     - NestJs
     - JWT Token Authentication
     - Vite with ReactJs
