@@ -62,6 +62,7 @@ The documentation of the APIs can be found here: http://localhost:3000/api
    -- Show active todo list on the dashboard
 - Get Completed Todo list per user
     -- Show todo list that has been marked as completed.
+- Database import won't be necessary, the server will automatically synchronize the tables.
 ## Code Format & Linters used
 
      - EsLint
