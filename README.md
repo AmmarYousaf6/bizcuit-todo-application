@@ -18,7 +18,7 @@ After installation of node, clone the repository and run the following commands 
 
 Run the following commands to run server
 
-- npm start
+- npm run start:dev
   - Node - http://localhost:3000
 
 ## Run Frontend
@@ -53,14 +53,14 @@ The documentation of the APIs can be found here: http://localhost:3000/api
 ## Functional
 
 - Login and Signup
-    User can register himself on the signup page. Please note that an activation email is not being sent, any user can come up and register to the platform.
-    After Signup, user can login himself by providing correct details of himself. After which he will be able to access the dashboard.
+    -- User can register himself on the signup page. Please note that an activation email is not being sent, any user can come up and register to the platform.
+    -- After Signup, user can login himself by providing correct details of himself. After which he will be able to access the dashboard.
 - Create Todo
-    The loggedIn user can create todo for himself, delet the todo, and also mark the todo as completed.
+    -- The loggedIn user can create todo for himself, delet the todo, and also mark the todo as completed.
 - Get Active Todo list per user
-   Show active todo list on the dashboard
+   -- Show active todo list on the dashboard
 - Get Completed Todo list per user
-    Show todo list that has been marked as completed.
+    -- Show todo list that has been marked as completed.
 ## Code Format & Linters used
 
      - EsLint
