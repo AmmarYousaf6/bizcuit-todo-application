@@ -49,6 +49,7 @@ The documentation of the APIs can be found here: http://localhost:3000/api
 - Database Performance can be increased by implementing read replicas on the RDS side.
 - React performance can be increased by using cloudFront
 - Server side performance can be increased by using more than one methods like cache strategy, use Graphql APIs with Apollo Client e.t.c.
+- Can store logs to keep track of the activities.
 
 ## Functional
 
