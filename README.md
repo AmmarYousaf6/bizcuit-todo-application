@@ -38,6 +38,10 @@ Run the following commands to run test cases
 
 The documentation of the APIs can be found here: http://localhost:3000/api
 
+## Video 
+- Here is a short link to the video on how it works.
+- https://drive.google.com/file/d/157v_K76djFT6Xb1naN1yMEc9NDcJzB7Y/view
+
 ## Improvements on what else can be done in the application
 
 - Pagination: Since there can be more todo's for a single user, we can implement pagination.
