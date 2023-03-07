@@ -89,3 +89,4 @@ The documentation of the APIs can be found here: http://localhost:3000/api
     - Swagger
     - Jest
     - Prettier
+    - ESLint
