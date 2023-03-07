@@ -38,13 +38,29 @@ Run the following commands to run test cases
 
 The documentation of the APIs can be found here: http://localhost:3000/api
 
+## Improvements on what else can be done in the application
+
+- Pagination: Since there can be more todo's for a single user, we can implement pagination.
+- Search &  Sort - We can search or sort a list by name.
+- Deadline - Create a cron job to mark the todo as finished on the basis of comparison on today's date and todo deadline date.
+- Hosting - The application can be hosted on the AWS server by using different services
+    - AWS (EC2, ECS, AWS Lambda)
+- A CI/CD pipeline can also be established via gitlab and AWS
+- Database Performance can be increased by implementing read replicas on the RDS side.
+- React performance can be increased by using cloudFront
+- Server side performance can be increased by using more than one methods like cache strategy, use Graphql APIs with Apollo Client e.t.c.
+
 ## Functional
 
 - Login and Signup
+    User can register himself on the signup page. Please note that an activation email is not being sent, any user can come up and register to the platform.
+    After Signup, user can login himself by providing correct details of himself. After which he will be able to access the dashboard.
 - Create Todo
+    The loggedIn user can create todo for himself, delet the todo, and also mark the todo as completed.
 - Get Active Todo list per user
+   Show active todo list on the dashboard
 - Get Completed Todo list per user
-
+    Show todo list that has been marked as completed.
 ## Code Format & Linters used
 
      - EsLint
