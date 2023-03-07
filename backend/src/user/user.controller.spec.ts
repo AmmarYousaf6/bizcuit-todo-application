@@ -19,10 +19,10 @@ describe('UserController', () => {
     send: jest.fn((x) => x),
   } as unknown as Response;
   const data = {
-    firstName: 'ammar',
-    lastName: 'yy',
-    email: 'ammarssss@gmail.com',
-    password: 'ammarrr1323',
+    firstName: 'bizuit',
+    lastName: 'owner',
+    email: 'bizcuit@gmail.com',
+    password: 'bizcuit134',
   };
   beforeEach(async () => {
     const module: TestingModule = await Test.createTestingModule({
