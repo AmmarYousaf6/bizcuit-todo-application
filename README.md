@@ -67,6 +67,12 @@ The documentation of the APIs can be found here: http://localhost:3000/api
 - Get Completed Todo list per user
     -- Show todo list that has been marked as completed.
 - Database import won't be necessary, the server will automatically synchronize the tables.
+
+## Could not finish
+- I could not finish the deadline functionality of the Todo in time.
+- I wanted to write unit test cases in more depth and detail.
+- Implement PWA functionality
+
 ## Code Format & Linters used
 
      - EsLint
