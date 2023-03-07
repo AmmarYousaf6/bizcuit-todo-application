@@ -72,6 +72,7 @@ The documentation of the APIs can be found here: http://localhost:3000/api
     - Node ^16.18
     - Express
     - NestJs
+    - JWT Token Authentication
     - Vite with ReactJs
     - MySql using typeOrm
     - Swagger
